@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+        }
+
+        .container {
+            border: 2px solid black;
+            background-color: lightgray;
+            padding: 15px;
+            width: 800px;
+            margin: auto;
+            border-radius: 7px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <h1>registration form</h1>
+        <form action="" method="POST">
+            <div>
+                <label for='name' style="display: inline" ;>First Name</label>
+                <input type='text' id='name' placeholder='first name' required />
+
+                <label style="display: inline" ;> Middle Name</label>
+                <input type='text' placeholder='middle name' />
+
+                <label style="display: inline-block" ;>Last Name</label>
+                <input style='display: inline' ; type='text' placeholder='last name' required />
+            </div>
+
+            <div>
+                <label style="display: inline" ;>Gender:</label>
+                <label for='male' style="display: inline;">Male</label>
+                <input type='radio' id='male' name="gender" required />
+                <label for='female' style="display: inline;">Female </label>
+                <input type='radio' name="gender" id='female' />
+                <label for='email' style="display: inline" ;>Email:</label>
+                <input placeholder='email' type='email' id="email" required /></br>
+                <label>Profile:</label>
+                <input type='file' />
+            </div>
+            <div>
+                <label style="display: inline" ; for='address'>Address:</label>
+                <input id='address' type='text' placeholder='address' required />
+                <label style="display: inline" ; for="cars">City</label>
+                <select name="city" id='city'>
+                    <!--Size="4"-->
+                    <option selected>select</option>
+                    <option>Bhopal</option>
+                    <option>Surat</option>
+                    <option>Vidisha</option>
+                    <option>Indore</option>
+                </select>
+                <label for='State' style="display: inline" ;>State</label>
+                <input placeholder='state' type='text' id='State' required />
+            </div>
+            <div>
+                <label style="display: inline" ; for='country:'>Country</label>
+                <input placeholder='country' id='country' type='text' required />
+                <label style="display: inline" ; for='code'>Zipcode</label>
+                <input type='text' id='code' required />
+                <label style="display: inline" ; for='no'>Contact no.</label>
+                <input placeholder='contact no.' type='text' id='no' required />
+
+            </div>
+            <div>
+                <label>Date of Birth</label>
+                <input placeholder='dd/mm/yy' type='date' required />
+                <label for='join' style="display: inline" ;>Date of joining</label>
+                <input id='join' placeholder='dd/mm/yy' type='date' required />
+                <label>Hobbies:</label>
+                <input type="checkbox" name="" value="Singing" />Singing
+                <input type="checkbox" name="" value="Cycling" />Cycling
+                <input type="checkbox" name="" value="Writing" />Writing
+                <input type="checkbox" name="" value="Dancing" />Dancing
+            </div>
+            <div>
+
+
+                <label for='about'>about:</label>
+                <textarea id='about' name="message" rows="8" cols="50"></textarea>
+
+
+            </div>
+            <div>
+                <input type="submit" value="submit form" />
+                <button type='reset'>reset</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

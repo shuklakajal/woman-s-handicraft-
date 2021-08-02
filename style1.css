@@ -1,0 +1,111 @@
+*{margin:0;
+    padding:0;box-sizing:border-box; }
+
+    .col-md-4{
+        margin-bottom: 5%;
+        background-color: whitesmoke;
+    }
+
+    #btnm{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7%;
+        position: absolute;
+        bottom:-65%;
+        left:92%;
+    }
+    #btnu{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7%;
+        position: absolute;
+        bottom:-80%;
+        left:84%
+    }
+
+
+    #btns{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-65%;
+        left:92%;
+    
+        
+    
+    }
+    #btnv{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-79%;
+        left:92%;
+    }
+    #btn1{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-80%;
+        left:92%;
+    }
+    
+        #btni{
+            padding: 5px;
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            width: 7;
+            position: absolute;
+            bottom: -65%;
+            left:85%;
+
+        }
+    
+    #btnn{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7;
+        position: absolute;
+        bottom: -79%;
+        left:85%;
+    }
+    h6{
+        text-align: center;
+        color:brown;
+    }
+
+    .card-body{
+        color:orange;
+        font-size: 10px;
+    }
+    
+    .overlay{
+        position: absolute;
+        top:60%;
+        opacity: 0;
+    
+        
+    }
+    .card:hover .overlay{
+        opacity: 1;
+        transition: 0.5s;
+
+
+    }
+
+    
